@@ -1,0 +1,16 @@
+PODS:
+  - ScanSdk (0.1.0)
+
+DEPENDENCIES:
+  - ScanSdk (from `../`)
+
+EXTERNAL SOURCES:
+  ScanSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScanSdk: 1ea33ee5aedbe3538f5f72143e80911c0c866071
+
+PODFILE CHECKSUM: 4268609577efd4ebe30cbfdf64053e25103048b2
+
+COCOAPODS: 1.6.1

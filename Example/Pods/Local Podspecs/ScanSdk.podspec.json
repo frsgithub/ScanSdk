@@ -1,0 +1,22 @@
+{
+  "name": "ScanSdk",
+  "version": "0.1.0",
+  "summary": "A short description of ScanSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/frsgithub/ScanSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "frsgithub": "frslabs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/frsgithub/ScanSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ScanSdk/Classes/**/*"
+}

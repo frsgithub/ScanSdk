@@ -1,0 +1,6 @@
+framework module ScanSdk {
+  umbrella header "ScanSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
