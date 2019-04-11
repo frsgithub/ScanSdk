@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScanSdk'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This SDK is for scan ID'
   s.description      = "SDK is used for scan different types of ID "
   s.homepage         = 'https://github.com/frsgithub/ScanSdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'frsgithub' => 'frslabs@gmail.com' }
-  s.source           = { :git => 'https://manage.repo.frslabs.space/repository/nexus-test-raw/cocoapods/ScanIDSDK.framework.zip', :tag => s.version.to_s }
+  s.source           = { :http => 'https://manage.repo.frslabs.space/repository/nexus-test-raw/cocoapods/ScanIDSDK.framework.zip'}
   s.ios.deployment_target = '12.0'
   s.source_files = 'ScanSdk/Classes/**/*'
   s.ios.vendored_frameworks = 'ScanIDSDK.framework'
